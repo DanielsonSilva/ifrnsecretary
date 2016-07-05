@@ -1,0 +1,10 @@
+Project for development of a small web system to help the organization of the information in the secretary of the IFRN Campus Parnamirim.
+This will store information about the students and teachers to let know when the students show their attest at secretary.
+Generate a document to register the attest to give the student one document.
+
+The directories used as follows:
+	Documentation - the documentation with UML diagrams and information about bussines rules.
+	Program - Source files for the project for the selected language.
+	Other - Other files to help create the program and documentation
+	
+
