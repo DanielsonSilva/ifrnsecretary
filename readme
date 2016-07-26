@@ -3,8 +3,20 @@ This will store information about the students and teachers to let know when the
 Generate a document to register the attest to give the student one document.
 
 The directories used as follows:
-	Documentation - the documentation with UML diagrams and information about bussines rules.
+	Documentation - the documentation with UML diagrams and information about bussines rules;
+	Access - Program in access for development with database filled with data;
+	Arquivos do Requerimento - Files that will help develop the program with required fields to be stored in database;
 	Program - Source files for the project for the selected language.
-	Other - Other files to help create the program and documentation
-	
+
+TODO:
+	- Fill the following tables with data:
+	. tb_alunos_agrupamento
+	. tb_disciplina
+	. tb_professores
+	. tb_requerimento_documento
+	. tb_requerimento_tipo
+	. tb_setor
+
+	- Find a solution for form Formulário Requerimentos for storing all the data.
+		
 
