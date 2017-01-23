@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<title>{% block title %}Sistema de Gerenciamento Supimpa - IFRN Parnamirim{% endblock %}</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="/static/css/estilo.css" />
+	<script>
+	$(document).ready(function() {
+		$("#id_username").focus();
+	});
+	</script>
+</head>
+<body>
+<div class="login-services">
+<h3>Serviços</h3>
+</div>
+<h3>Serviços</h3>
+  <header>
+  a{% load static %}a
+    <h1>Django Simple Login a{{ static }}a</h1>
+    {% if user.is_authenticated %}
+      Hi {{ user.username }}!
+      <a href="{% url 'logout' %}">logout</a>
+    {% else %}
+      <a href="{% url 'login' %}">login</a>
+    {% endif %}
+  </header>
+  <hr>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+  <hr>  
+  <div class="login-footer">
+        <p>&copy; 2016 SUAP | Desenvolvimento: <a href="http://portal.ifrn.edu.br">IFRN</a></p>
+    </div>
+	<p>&copy; 2016 SUAP | Desenvolvimento: <a href="http://portal.ifrn.edu.br">IFRN</a></p>
+</body>
+</html>
